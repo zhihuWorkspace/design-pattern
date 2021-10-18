@@ -8,7 +8,6 @@ var Mortgage = function (name) {
 }
 
 Mortgage.prototype = {
-
   applyFor: function (amount) {
       // access multiple subsystems...
       var result = "approved";
@@ -23,3 +22,12 @@ Mortgage.prototype = {
           " for a " + amount + " mortgage";
   }
 }
+
+function run() {
+  var mortgage = new Mortgage("Joan Templeton");
+  var result = mortgage.applyFor("$100,000");
+
+  console.log(result);
+}
+
+run()
