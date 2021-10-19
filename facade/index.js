@@ -24,7 +24,7 @@ Mortgage.prototype = {
 }
 
 function run() {
-  var mortgage = new Mortgage("Joan Templeton");
+  var mortgage = new Mortgage("Davy Chen");
   var result = mortgage.applyFor("$100,000");
 
   console.log(result);
