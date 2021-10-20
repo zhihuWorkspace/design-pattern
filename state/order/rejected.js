@@ -1,6 +1,6 @@
 var Pending = require('./pending');
-class Draft {
+class Rejected {
   nextState = new Pending()
 }
 
-module.exports = Draft
+module.exports = Rejected
